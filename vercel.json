@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/(_\/|admin|login|logout|signup)(.*)", "destination": "/reserved.html" },
+    { "source": "/@:user/:stream/:id", "destination": "/api/stream" },
+    { "source": "/@:user/:stream", "destination": "/api/stream" },
+    { "source": "/:stream", "destination": "/api/stream" },
+    { "source": "/:stream/:id", "destination": "/api/stream" }
+  ]
+}

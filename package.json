@@ -1,0 +1,13 @@
+{
+  "name": "strm.city",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Jesse Kriss <jesse@jklabs.net>",
+  "license": "MIT",
+  "scripts": {
+    "build": "echo 'done'"
+  },
+  "dependencies": {
+    "@vercel/node": "^1.7.1"
+  }
+}
